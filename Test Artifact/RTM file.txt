@@ -1,0 +1,94 @@
+RTM file generation
+REQ_001
+User Story: User Login
+
+Title: Login to the application
+
+As a registered customer,
+I want to log in using my email address and password,
+So that I can securely access my account and manage my orders.
+
+Acceptance Criteria
+User should see Email/Username and Password fields.
+User should see a Login button.
+User should be able to enter a valid email/username and password.
+On entering valid credentials, the user should be successfully logged in and redirected to the Home/Dashboard page.
+On entering invalid credentials, an appropriate error message should be displayed.
+If the email/username field is empty, a validation message should be displayed.
+If the password field is empty, a validation message should be displayed.
+Password should be masked while entering it.
+User should have a Forgot Password? option.
+User should have an option to Remember Me.
+Login should be prevented when mandatory fields are empty.
+After successful login, the user's account information should be accessible.
+Example Gherkin Scenario
+
+**User Story: Social Media Links**
+ 
+**Title: Access Social Media Links**
+ 
+As a user of the application, I want to see social media links available at the bottom of the page, So that I can access the application's social media pages.
+ 
+**Acceptance Criteria**
+ 
+ 
+- User should see social media links at the bottom of the page.
+ 
+- User should be able to identify the available social media links.
+ 
+- User should be able to click on a social media link.
+ 
+- On clicking a social media link, the user should be redirected to the corresponding social media page.
+ 
+- Each social media link should redirect to its respective social media page.
+ 
+
+ 
+**Example Gherkin Scenario**
+ 
+**Scenario: Access a social media page**
+ 
+Given the user is on the application page When the user clicks on an available social media link at the bottom of the page Then the user should be redirected to the corresponding social media page.
+User Story: Copyright Company Link
+
+Title: Access Copyright Company Website
+
+As a user of the application,
+I want to see the copyright company link at the bottom of the page,
+So that I can access the copyright company's website.
+
+Acceptance Criteria
+
+- User should see the copyright information at the bottom of the page.
+- User should see the company name as a clickable link within the copyright information.
+- User should be able to click on the company name link.
+- On clicking the company name link, the user should be redirected to the corresponding company website.
+
+Example Gherkin Scenario
+
+Scenario: Access the copyright company website
+
+Given the user is on the application page
+When the user clicks on the copyright company link at the bottom of the page
+Then the user should be redirected to the corresponding company website.
+
+these are three user stories 
+you are an senior QA engineer 
+you have to first create test cases which includes  positive , negative , boundary conditiosn, valodation requirement , business rules , functional requirement
+dont includes test cases which are out of scope of the above requirement 
+be consise hai generate accurate cases not duplicate or repeating.
+generate test cases 3 excel files for each user stories
+the test cases excel file should follow format i am giving you 
+test case id 
+test case name
+input data 
+expected result
+actual result
+test environment 
+test priority 
+execution state
+bug severity
+bug priority 
+notes 
+
+for every test case file do constraints is , the test case name should start with verify and is from the perspective of user, test priority will be only high , low and medium same for bug severity , bug priority , execution state should be QA you should create by considering positive test case, negative test case , boundary conditions, validation requirement, business rules, functional requirements dont include test cases apart from the scenario scope the output should be a table including all the columns i have provided earlier.

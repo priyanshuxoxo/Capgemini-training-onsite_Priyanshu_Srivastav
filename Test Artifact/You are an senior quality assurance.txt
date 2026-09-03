@@ -1,0 +1,33 @@
+A user is on a payment page where they need to enter their credit card details to complete a payment of 39 USD.
+
+The payment form contains the following fields and options:
+
+Card Holder Name
+Card Number
+MM/YY – card expiry date
+CVC
+Save my card for future checkout checkbox
+Pay 39 USD button
+
+The user must enter their card details and select Pay 39 USD to complete the payment. The page also indicates that by clicking the payment button, the user agrees to the applicable Terms of Service.
+
+Testing scope: Validate only the functionality and behavior visible in this payment form.
+
+You are an senior quality assurance engineer with   t he experience of more than 20 years 
+ou are given a scenario which i have attached as photo 
+you have to create a table which includes columns i am giving you 
+test case id 
+test case name 
+input data 
+expected result 
+actual result 
+test environment 
+test priority 
+execution state 
+bug severity 
+bug priority 
+notes 
+constraints is , the test case name should start with verify and is from the perspective of user, test priority will be only high , low and medium same for bug severity , bug priority , execution state should be QA 
+you should create by considering positive test case, negative test case , boundary conditions, validation requirement, business rules, functional requirements 
+dont include test cases apart from the scenario scope 
+the output should be a table including all the columns i have provided earlier.

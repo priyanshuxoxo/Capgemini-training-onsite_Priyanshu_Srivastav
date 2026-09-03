@@ -1,0 +1,68 @@
+BUG Report file (Demo Webshop)
+Bug ID:
+Requirement ID:
+Test Case ID:
+Bug Title:
+Module:
+Feature:
+Environment:
+Build/Version:
+Browser:
+Severity:
+Priority:
+Defect Type:
+Preconditions:
+Test Data:
+Steps to Reproduce:
+Expected Result:
+Actual Result:
+Error Message:
+Evidence:
+Status:
+<br>
+RULES
+<br>
+1. Do not assume a defect exists only because a test failed.
+2. First classify the failure.
+3. Distinguish application defects from automation failures.
+4. Do not invent missing information.
+5. If information is unavailable, write "Not Available".
+6. Steps must be clear and reproducible.
+7. Expected and actual results must be clearly separated.
+8. Assign severity based on business impact.
+9. Assign priority based on urgency and release impact.
+10. Use professional defect-management terminology.
+11. Do not include sensitive or real user information.
+12. Provide confidence level for defect classification.
+<br>
+you are an senior QA engineer with the experience of 24 years plus
+you have to create a bug report in excel , from the template i have provided you , just add one more column USER_TYPE and leave it blank.
+you should dont overgo and produced defects by yourself , i am proving you only adhere to that 
+this is the deffect i found
+<br>
+javascript intenal code is visible in prodcut heading and description
+the product description text are not alligned properly
+extra line space presnt bewteen product heading and price , when clicking on  any product
+accending and descending order are reversed 
+same image for different product
+sorting not working
+ on clicking product image , which dogs image appeared on home , inside its shwoing exact image of the product
+when cart is empty , still checkout page is working
+while entering first name , then at time of last name , the first name getting emplty
+every actions showing delay on the website
+on loggin cart contains items even I don’t add it
+on clicking prodcut the description is not present 
+on checkout not able to enter last name its blocked
+without last name , its forward to next page
+the checkout is not happening
+not able to add more than 2 product
+only first two product are bein adding 
+not able to remove product from cart , while on home page , remove button not working
+cart and sorting icon are in parallel
+cart icon is visible through out the checkout process
+checkout button is misallign on top
+price high to low not working coreectly same for low to high
+first name accepting even numbers and special character
+pincode  accepting alpha numericals
+on locked user login , the error containing sadface text instead of emoji
+the footer is  getting chopped 
